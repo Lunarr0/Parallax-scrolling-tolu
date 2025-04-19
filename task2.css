@@ -10,7 +10,8 @@ body {
   color: white;
 }
 .background {
-  background-image: linear-gradient(to bottom,transparent 40%,rgba(0,0,0,0.95) 70%, #020202), url("https://i.imgur.com/9KVO1Ok.jpg");
+  background-image: linear-gradient(to bottom,transparent 40%,rgba(0,0,0,0.95) 80%, #020202),
+   url("https://images.unsplash.com/photo-1571764136922-eec5462150bc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHVuZGVyJTIwdGhlJTIwZGFyayUyMG9jZWFufGVufDB8fDB8fHww");
   width: 100vw;
   height: 100vh;
   background-position: top;
@@ -42,23 +43,26 @@ h1 {
   background-repeat: no-repeat;
 }
 .layer-1 {
-  background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 70%, #020202), url("https://i.imgur.com/bwEm8WB.png");
-  z-index: 70;
+  background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 70%, #020202), url("https://images.unsplash.com/photo-1733128666089-e313cc0113ef?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGJsdWUlMjBvY2VhbnxlbnwwfHwwfHx8MA%3D%3D");
+  z-index: 80;
 }
 .layer-2 {
-  background-image: linear-gradient(to bottom,transparent 30%,rgba(0,0,0,0.9) 80%, #020202), url("https://i.imgur.com/XxTPjmC.png");
-  z-index: 80;
+  background-image: linear-gradient(to bottom,transparent 30%,rgba(0,0,0,0.9) 80%, #020202), url("https://images.unsplash.com/photo-1571764136922-eec5462150bc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHVuZGVyJTIwdGhlJTIwZGFyayUyMG9jZWFufGVufDB8fDB8fHww");
+  z-index: 50;
 }
 .layer-3 {
   background-image: 
-    linear-gradient(to bottom,transparent 60%,rgba(0, 0,0,0.85), #020202), url("https://i.imgur.com/F4xnzjU.png");
-  z-index: 90;
+    linear-gradient(to bottom,transparent 60%,rgba(0, 0,0,0.85), #020202), url("https://images.unsplash.com/photo-1571764136922-eec5462150bc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHVuZGVyJTIwdGhlJTIwZGFyayUyMG9jZWFufGVufDB8fDB8fHww");
+  z-index: 70;
 }
+
+
+
 .content {
   font-size: 1.2rem;
   line-height: 1.7;
   position: relative;
-  background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("https://images.unsplash.com/photo-1571764136922-eec5462150bc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHVuZGVyJTIwdGhlJTIwZGFyayUyMG9jZWFufGVufDB8fDB8fHww");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -66,19 +70,21 @@ h1 {
   padding: 4rem 10rem 20rem 40rem;
 }
 .rock {
-  background-image: url("https://i.imgur.com/F4xnzjU.png");
+  background-image: url("https://png.pngtree.com/png-vector/20230103/ourmid/pngtree-great-white-shark-vector-png-image_6550203.png");
   width: 100vw;
   height: 100vh;
   position: absolute;
+  border: 20%;
   bottom: 0;
   left: 0;
   background-position: left center;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  background-repeat: no-repeat;
+
 }
 .rocks {
   position: absolute;
   z-index: 1000;
+  border-radius: 50%;
 }
 .rock-1 {
  width: 100px;
@@ -89,14 +95,14 @@ h1 {
 .rock-2 {
   width: 120px;
   height: 120px;
-  left: 20%;
+  left: 34%;
   top: 30%;
 }
 .rock-3 {
   width: 80px;
   height: 80px;
-  left: 10%;
-  bottom: 20%;
+  left: 20%;
+  bottom: 25%;
 }
 .rock-4 {
   width: 130px;
@@ -115,31 +121,10 @@ h1 {
 .rock-6 {
   width: 70px;
   height: 70px;
-  bottom: 30%;
+  bottom: 60%;
   left: 20%;
 }
-.rock-7 {
-  width: 120px;
-  height: 120px;
-  bottom: 35%;
-  left: 15%;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.rock-8 {
-  width: 50px;
-  height: 50px;
-  bottom: 25%;
-  left: 25%;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.rock-9 {
-  width: 70px;
-  height: 70px;
-  bottom: 35%;
-  left: 30%;
-}
+
 
 @media only screen and (max-width: 1200px) {
   h1 {

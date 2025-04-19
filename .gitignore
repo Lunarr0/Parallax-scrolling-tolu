@@ -1,0 +1,11 @@
+# dont commit history
+.history
+
+# dont commit vscode settings
+.vscode
+
+# dont commit node_modules
+node_modules
+
+# dont commit dist
+dist
